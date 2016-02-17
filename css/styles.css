@@ -1,0 +1,162 @@
+body{
+  background-color: white;
+  margin:0;
+  font-family: 'Raleway',sans-serif;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  background-color: #888; 
+  height: 120px;
+}
+
+
+#logo{
+  width:320px;
+}
+
+nav{
+  width:640px;
+}
+
+#logo a{
+  font-family: 'Anton',sans-serif;
+  font-size: 50px;
+  line-height: 120px;
+  color: #333;
+  text-shadow: 0 0 2px #fff;
+  margin-left:20px;
+  transition: text-shadow 4s;
+  transition: font-size 4s;
+}
+
+#logo a:hover{
+    font-size: 55px;
+   text-shadow: 0 0 20px #fff;
+}
+
+.visible-area{
+  width:960px;
+  margin:auto;
+}
+
+nav #main-menu{
+  margin: 0;
+
+}
+
+nav #main-menu li{
+  display:inline-block;
+  font-size: 20px;
+  line-height: 120px;
+  padding: 0 8px;
+  width:calc(25% - 21px);
+  border-right: 1px solid #000;
+  text-align: center;
+
+}
+
+nav #main-menu li:hover{
+  background-color: #333;
+  border-right: 1px solid #fff;
+
+}
+nav #main-menu li a{
+  color: white;
+  font-weight: bold;
+  z-index: 5000;
+}
+
+
+nav #main-menu li a:link{
+  color: #fff;
+}
+
+nav #main-menu li a:visited{
+  color: #ff9933 !important;
+}
+
+nav #main-menu li a:hover{
+  color: #fff;
+}
+
+#slider img{
+  transition:transform 4s;
+}
+#slider img:hover{
+
+  transform: translateX(200px);
+}
+.top-margin{
+  margin-top: 20px;
+}
+
+#events .event{
+  display: inline-block;
+  width: 300px;
+
+}
+
+#events .event:nth-child(even){
+  margin-left: 30px;
+}
+
+article{
+  width: calc(500px - 20px);
+  padding-left: 20px;
+  text-align: justify;
+}
+
+.news-image{
+  transtition: transform 2s;
+}
+
+.news-image:hover{
+  transform: scale(2,2);
+}
+footer{
+  background-color: #333;
+  display: inline-block;
+  width: 100%;
+}
+
+.footer-column{
+  display: inline-block;
+  width: calc(50% - 21px);
+  padding: 10px;
+  color: #fff;
+  text-align: center; 
+
+}
+
+.footer-column:first-child{
+  border-right: 1px solid #ccc;
+}
+
+.footer-column ul {
+  list-style: none;
+
+}
+
+.copyright{
+  border-top: 1px solid #ccc;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/*Helper classes*/
+.float-left{
+  float:left;
+}
+.float-right{
+  float:right;
+}
+.clear-fix{
+  clear:both;
+}
+
